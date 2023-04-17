@@ -19,7 +19,7 @@ const LoginCard = ({loginCard}) => {
                 <Input type={passwordInput.type} placeholder={passwordInput.placeholder} handleChange={handlePressInput} />
             </StyledInputContainer>
             <Alert hightLightText={alert.hightLightText} text={alert.text} />
-            <Button text={buttonText} handleClick={handlePressButton} />
+            <Button text={buttonText} handleCick={handlePressButton} />
             <StyledFooter>
                 <p>{footerText}</p>
             </StyledFooter>
