@@ -3,34 +3,15 @@ import breakpoints from '../core/breakpoints';
 
 const base = {
     font: {
-    family: {
-      primary: "'Sofia Pro', sans-serif"
-    },
-    size: {
-      h1: '3.75rem',
-      h2: '3rem',
-      h3: '2.5rem',
-      h4: '2.25rem',
-      h5: '1.625rem',
-      h6: '1.5rem',
-      subtitle1: '1.1375rem',
-      subtitle2: '1.25rem',
-      subtitle3: '1.375rem',
-      paragraph1: '1.125rem',
-      paragraph2: '1rem',
-      paragraph3: '0.875rem',
-      caption: '0.75rem',
-      help: '0.625em',
-      small: '0.5rem'
-    },
-    letterSpacing: {
-      medium: '0.5rem',
-      normal: '0rem'
-    },
-    lineHeight: {
-      medium: '0.6rem',
-      normal: 'normal'
-    }
+      family: {
+        primary: "'Sofia Pro', sans-serif"
+      },
+      size: {
+        button: '21px',
+        small: '14px',
+        medium: '16px',
+        large: '28px',
+      },
   },
   zIndex: {
     initial: 0,
@@ -42,20 +23,24 @@ const base = {
   },
   borderRadius: {
     none: 'unset',
-    button: '100px',
     small: '3px',
     medium: '8px',
-    large: '18px',
+    large: '16px',
     total: '50%'
   },
   containerWidth: {
-    smallMobile: { width: '92%', maxWidth: '92%' },
-    mobile: { width: '92%', maxWidth: '92%' },
+    smallMobile: { width: '90%', maxWidth: '90%' },
+    mobile: { width: '90%', maxWidth: '90%' },
     tablet: { width: '85%', maxWidth: '85%' },
-    desktop: { width: '85%', maxWidth: '85%' },
-    screen: { width: '75%', maxWidth: '75%' },
+    desktop: { width: '70%', maxWidth: '70%' },
+    screen: { width: '52%', maxWidth: '52%' },
     limitFluid: { width: '100%', maxWidth: '1920px' },
     fluid: { width: '100%', maxWidth: '100%' }
+  },
+  gap: {
+    small: '16px',
+    medium: '24px',
+    large: '128px'
   },
   utils: {
     spacing

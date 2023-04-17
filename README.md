@@ -1,40 +1,76 @@
-# crack-the-code-app-test
+# Crack the code app test
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- Sequence diagram >>> https://cs1.ssltrust.me/s/6u9aC5hCTEhTpT1
+- Markup page >>> https://cs1.ssltrust.me/s/ECH9VusiMmi3ac1
 
-## Getting Started
+## Stack
 
-First, run the development server:
+- Frontend
+  - [Next.js](https://nextjs.org/)
+  - [Styled-components](https://styled-components.com/)
+  - [Jest](https://jestjs.io/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Highlights
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Clean architecture
+- Clean code
+- Atomic design
+- Unit testing
+- Custom labels in repository
+- Follow guidelines
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Requeriments
+Mandatory
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Node >= 14.7.3
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Optional
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Docker >= 23.0.3
 
-## Learn More
+## Local configuration
+If you wish run the project, then:
 
-To learn more about Next.js, take a look at the following resources:
+1. yarn install
+2. yarn dev
+3. go to `http://localhost:3000/`
+4. see the magic
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+If you wish run the test, then:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. yarn test
 
-## Deploy on Vercel
+If you wish run the test with coverage, then:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. yarn test:coverage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Folder structure
+Explanation of hierarchies in files and layers.
+
+    crack-the-code-app-test/
+      ├── public/                          # Favicon, fonts, svg, robots folder
+      |   ├── fonts/                       # Fonts folder
+      │   └── icons/                       # Icons folder
+      └── src/                             # Application folder
+          ├── components/                  # Components folder (Atomic design strategy)
+          ├── constants/                   # General constants folder
+          ├── mixins/                      # Mixins folder
+          ├── pages/                       # Pages folder
+          └── styles/                      # Styles folder
+              ├── core/                    # Breakpoints, colors, utils folder
+              └── thems/                   # Themes folder
+            
+
+## Branches
+
+- `main` >>> All features
+- `feature/initial-configurations` >>> initial configurations.
+- `feature/markup-page` >>> markup page and unit test.
+
+## Other details
+
+- N/A
+
+# License
+
+MIT

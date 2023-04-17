@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
 
 import light from '@styles/themes/light';
-import BaseStyles from '@components/atoms/BaseStyles';
+import { BaseStyles } from '@components/atoms';
 
 const App = ({ Component, pageProps }) => (
   <ThemeProvider theme={light}>
