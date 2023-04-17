@@ -2,7 +2,5 @@
   "singleQuote": true,
   "trailingComma": "none",
   "jsxSingleQuote": true,
-  "endOfLine": "auto",
-  "arrowParens": "avoid",
-  "bracketSpacing": false
+  "endOfLine": "auto"
 }

@@ -68,4 +68,4 @@ const BaseStyles = createGlobalStyle`
   }
 `;
 
-export default BaseStyles;
+export {BaseStyles};
