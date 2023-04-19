@@ -1,8 +1,5 @@
 # Crack the code app test
 
-- Sequence diagram >>> https://cs1.ssltrust.me/s/6u9aC5hCTEhTpT1
-- Markup page >>> https://cs1.ssltrust.me/s/ECH9VusiMmi3ac1
-
 ## Stack
 
 - Frontend
@@ -16,6 +13,7 @@
 - Clean code
 - Atomic design
 - Unit testing
+- Gitflow
 - Custom labels in repository
 - Follow guidelines
 
@@ -23,10 +21,6 @@
 Mandatory
 
 - Node >= 14.7.3
-
-Optional
-
-- Docker >= 23.0.3
 
 ## Local configuration
 If you wish run the project, then:
@@ -66,10 +60,14 @@ Explanation of hierarchies in files and layers.
 - `main` >>> All features
 - `feature/initial-configurations` >>> initial configurations.
 - `feature/markup-page` >>> markup page and unit test.
+- `enhancement/readme` >>> markup page and unit test.
 
 ## Other details
 
-- N/A
+- Layout
+    -  https://drive.google.com/file/d/1o5d1PgaMnCTLtr3moPeK0dQvrckZg7NF/view?usp=sharing
+- Lightouse
+    -  https://drive.google.com/file/d/1oJ3hQ4pUElvcDU3agzmQUdGYs0MQ-bh_/view?usp=sharing
 
 # License
 
