@@ -30,6 +30,8 @@ describe('Button component', () => {
 
     const button = screen.getByTestId('button-id');
 
-    expect(button).toHaveTextContent(mockText);
+    fireEvent.click(button);
+
+    expect(mockPress).toBeCalledTimes(1);
   });
 });
